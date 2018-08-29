@@ -37,8 +37,4 @@ public class TimeFileReaderTest {
         Assert.assertFalse(TimeFileReader.isLineValid(fileName));
     }
 
-
-
-
-
 }

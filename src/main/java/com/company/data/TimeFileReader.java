@@ -25,9 +25,6 @@ public class TimeFileReader {
         } else return true;
     }
 
-
-
-
 }
 
 
