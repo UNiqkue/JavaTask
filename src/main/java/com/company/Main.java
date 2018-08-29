@@ -15,7 +15,6 @@ public class Main {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         String filePath = bufferedReader.readLine();
         System.out.println(ResultAnalyzer.analyze(TimeSeparator.separate(TimeFileReader.read(filePath))));
-
     }
 
 }
